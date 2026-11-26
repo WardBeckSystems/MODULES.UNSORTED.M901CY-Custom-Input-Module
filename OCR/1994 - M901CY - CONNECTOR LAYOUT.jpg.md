@@ -12,6 +12,17 @@ Wiki page: [M901CY](../../../../PAGES/M901CY.md)
 - **Size:** 7,963,942 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–286 mm across, 21–432 mm up
+- **Outlines:** line 960 rings, 8,694 straight (11,698 mm) / 2,686 curved (3,578 mm); text 458 rings, 3,631 straight (3,652 mm) / 1,168 curved (1,565 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 3.5 @ (30.5, 24.6), r 3.5 @ (142.4, 25.0), r 3.5 @ (253.6, 24.6), r 3.0 @ (67.1, 124.0)
+- **Closed boxes:** 26; named: 55 2433384488848883 858; 55; 2433384488848883 858; 25 22; 25 22
+- **Words (OCR):** 22 in 17 lines: 55 · 858 · 2433384488848883 · Iz 222 · 22 · 2222 · 1g · +4+1 · 555 82 · 0 0 · 25 22 · 25
+
+Every curve, box, word and wire group: [1994 - M901CY - CONNECTOR LAYOUT (traced).json](../PINOUTS/1994%20-%20M901CY%20-%20CONNECTOR%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - M901CY - CONNECTOR LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)
