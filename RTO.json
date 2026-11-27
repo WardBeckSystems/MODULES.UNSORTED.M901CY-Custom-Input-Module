@@ -3,70 +3,1948 @@
  "connector": "RTO-144",
  "type": null,
  "series": null,
- "contacts": "46 contacts",
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "header",
+   "contacts": 40,
+   "rows": "odd 1-39 opposite even 2-40",
+   "view": null,
+   "part": null
+  },
+  {
+   "name": "P2",
+   "kind": "header",
+   "contacts": 56,
+   "rows": "odd 1-55 opposite even 2-56",
+   "view": null,
+   "part": null
+  }
+ ],
  "verified": null,
- "derived": true,
- "variant_of": "M901D",
+ "built_from": {
+  "pictures": [
+   "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
  "pins": [
   {
+   "connector": "P1",
+   "pin": "1",
+   "ref": "P1-1",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "2",
+   "ref": "P1-2",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 1 MUSIC OUT LEFT",
+   "kind": "out",
+   "port": "PGM 1 MUSIC OUT LEFT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "3",
+   "ref": "P1-3",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "4",
+   "ref": "P1-4",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 1 VOICE OUT LEFT",
+   "kind": "out",
+   "port": "PGM 1 VOICE OUT LEFT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "5",
+   "ref": "P1-5",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "6",
+   "ref": "P1-6",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 1 MUSIC OUT RIGHT",
+   "kind": "out",
+   "port": "PGM 1 MUSIC OUT RIGHT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "7",
+   "ref": "P1-7",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "8",
+   "ref": "P1-8",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 1 VOICE OUT RIGHT",
+   "kind": "out",
+   "port": "PGM 1 VOICE OUT RIGHT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "9",
+   "ref": "P1-9",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "10",
+   "ref": "P1-10",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 2 OUT LEFT",
+   "kind": "out",
+   "port": "PGM 2 OUT LEFT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "11",
+   "ref": "P1-11",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "12",
+   "ref": "P1-12",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 2 OUT RIGHT",
+   "kind": "out",
+   "port": "PGM 2 OUT RIGHT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "13",
+   "ref": "P1-13",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "14",
+   "ref": "P1-14",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 3 OUT LEFT",
+   "kind": "out",
+   "port": "PGM 3 OUT LEFT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "15",
+   "ref": "P1-15",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "P1-16",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 3 OUT RIGHT",
+   "kind": "out",
+   "port": "PGM 3 OUT RIGHT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "17",
+   "ref": "P1-17",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "18",
+   "ref": "P1-18",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 4 OUT LEFT",
+   "kind": "out",
+   "port": "PGM 4 OUT LEFT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "19",
+   "ref": "P1-19",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "20",
+   "ref": "P1-20",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 4 OUT RIGHT",
+   "kind": "out",
+   "port": "PGM 4 OUT RIGHT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "21",
+   "ref": "P1-21",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "22",
+   "ref": "P1-22",
+   "also": null,
+   "same_row": null,
+   "signal": "MIX-MINUS OUT",
+   "kind": "out",
+   "port": "MIX-MINUS OUT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "23",
+   "ref": "P1-23",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "24",
+   "ref": "P1-24",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "25",
+   "ref": "P1-25",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "26",
+   "ref": "P1-26",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "27",
+   "ref": "P1-27",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "28",
+   "ref": "P1-28",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "29",
+   "ref": "P1-29",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "30",
+   "ref": "P1-30",
+   "also": null,
+   "same_row": null,
+   "signal": "AUX 1 OUT",
+   "kind": "out",
+   "port": "AUX 1 OUT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "31",
+   "ref": "P1-31",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "32",
+   "ref": "P1-32",
+   "also": null,
+   "same_row": null,
+   "signal": "AUX 2 OUT LEFT",
+   "kind": "out",
+   "port": "AUX 2 OUT LEFT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "33",
+   "ref": "P1-33",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "34",
+   "ref": "P1-34",
+   "also": null,
+   "same_row": null,
+   "signal": "AUX 2 OUT RIGHT",
+   "kind": "out",
+   "port": "AUX 2 OUT RIGHT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "35",
-   "signal": "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN",
+   "ref": "P1-35",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/UNSORTED/M901D/MANUALS/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "36",
-   "signal": "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN",
+   "ref": "P1-36",
+   "also": null,
+   "same_row": null,
+   "signal": "CUE OUT LEFT",
+   "kind": "out",
+   "port": "CUE OUT LEFT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "37",
+   "ref": "P1-37",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/UNSORTED/M901D/MANUALS/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
+   "pin": "38",
+   "ref": "P1-38",
+   "also": null,
+   "same_row": null,
+   "signal": "CUE OUT RIGHT",
+   "kind": "out",
+   "port": "CUE OUT RIGHT",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "39",
+   "ref": "P1-39",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "40",
+   "ref": "P1-40",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "1",
+   "ref": "P2-1",
+   "also": null,
+   "same_row": null,
+   "signal": "A INPUT L +",
+   "kind": "in",
+   "port": "A INPUT L",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "2",
+   "ref": "P2-2",
+   "also": null,
+   "same_row": null,
+   "signal": "A INPUT L -",
+   "kind": "in",
+   "port": "A INPUT L",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "3",
+   "ref": "P2-3",
+   "also": null,
+   "same_row": null,
+   "signal": "A INPUT R +",
+   "kind": "in",
+   "port": "A INPUT R",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "4",
+   "ref": "P2-4",
+   "also": null,
+   "same_row": null,
+   "signal": "A INPUT R -",
+   "kind": "in",
+   "port": "A INPUT R",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "5",
+   "ref": "P2-5",
+   "also": null,
+   "same_row": null,
+   "signal": "B INPUT L +",
+   "kind": "in",
+   "port": "B INPUT L",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "6",
+   "ref": "P2-6",
+   "also": null,
+   "same_row": null,
+   "signal": "B INPUT L -",
+   "kind": "in",
+   "port": "B INPUT L",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "7",
+   "ref": "P2-7",
+   "also": null,
+   "same_row": null,
+   "signal": "B INPUT R +",
+   "kind": "in",
+   "port": "B INPUT R",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "8",
+   "ref": "P2-8",
+   "also": null,
+   "same_row": null,
+   "signal": "B INPUT R -",
+   "kind": "in",
+   "port": "B INPUT R",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "9",
+   "ref": "P2-9",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "10",
+   "ref": "P2-10",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "11",
+   "ref": "P2-11",
+   "also": null,
+   "same_row": null,
+   "signal": "INSERT R SEND",
+   "kind": "insert_send",
+   "port": "INSERT R SEND",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "12",
+   "ref": "P2-12",
+   "also": null,
+   "same_row": null,
+   "signal": "INSERT L SEND",
+   "kind": "insert_send",
+   "port": "INSERT L SEND",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "13",
+   "ref": "P2-13",
+   "also": null,
+   "same_row": null,
+   "signal": "INSERT R RETURN",
+   "kind": "insert_return",
+   "port": "INSERT R RETURN",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "14",
+   "ref": "P2-14",
+   "also": null,
+   "same_row": null,
+   "signal": "INSERT L RETURN",
+   "kind": "insert_return",
+   "port": "INSERT L RETURN",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "15",
+   "ref": "P2-15",
+   "also": null,
+   "same_row": null,
+   "signal": "DIRECT OUT R",
+   "kind": "out",
+   "port": "DIRECT OUT R",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "16",
+   "ref": "P2-16",
+   "also": null,
+   "same_row": null,
+   "signal": "DIRECT OUT L",
+   "kind": "out",
+   "port": "DIRECT OUT L",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "17",
+   "ref": "P2-17",
+   "also": null,
+   "same_row": null,
+   "signal": "P2-CTL OUT",
+   "kind": "control_out",
+   "port": "P2-CTL OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "18",
+   "ref": "P2-18",
+   "also": null,
+   "same_row": null,
+   "signal": "P1-CTL OUT",
+   "kind": "control_out",
+   "port": "P1-CTL OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "19",
+   "ref": "P2-19",
+   "also": null,
+   "same_row": null,
+   "signal": "EXT. VCA CTL VOLTAGE",
+   "kind": "control_in",
+   "port": "EXT. VCA CTL VOLTAGE",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "20",
+   "ref": "P2-20",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "21",
+   "ref": "P2-21",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 2 EXTERNAL SELECT",
+   "kind": "control_in",
+   "port": "PGM 2 EXTERNAL SELECT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "22",
+   "ref": "P2-22",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM 1 EXTERNAL SELECT",
+   "kind": "control_in",
+   "port": "PGM 1 EXTERNAL SELECT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "23",
+   "ref": "P2-23",
+   "also": null,
+   "same_row": null,
+   "signal": "CUE CTL BUS",
+   "kind": "bus",
+   "port": "CUE CTL BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "24",
+   "ref": "P2-24",
+   "also": null,
+   "same_row": null,
+   "signal": "CUE CTL BUS",
+   "kind": "bus",
+   "port": "CUE CTL BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "25",
+   "ref": "P2-25",
+   "also": null,
+   "same_row": null,
+   "signal": "EXTERNAL B SELECT",
+   "kind": "control_in",
+   "port": "EXTERNAL B SELECT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "26",
+   "ref": "P2-26",
+   "also": null,
+   "same_row": null,
+   "signal": "EXTERNAL A SELECT",
+   "kind": "control_in",
+   "port": "EXTERNAL A SELECT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "27",
+   "ref": "P2-27",
+   "also": null,
+   "same_row": null,
+   "signal": "TIMER RESET BUS",
+   "kind": "bus",
+   "port": "TIMER RESET BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "28",
+   "ref": "P2-28",
+   "also": null,
+   "same_row": null,
+   "signal": "TIMER RESET BUS",
+   "kind": "bus",
+   "port": "TIMER RESET BUS",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "29",
+   "ref": "P2-29",
+   "also": null,
+   "same_row": null,
+   "signal": "MUTE BUS A",
+   "kind": "bus",
+   "port": "MUTE BUS A",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "30",
+   "ref": "P2-30",
+   "also": null,
+   "same_row": null,
+   "signal": "MUTE BUS A",
+   "kind": "bus",
+   "port": "MUTE BUS A",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "31",
+   "ref": "P2-31",
+   "also": null,
+   "same_row": null,
+   "signal": "MUTE BUS B",
+   "kind": "bus",
+   "port": "MUTE BUS B",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "32",
+   "ref": "P2-32",
+   "also": null,
+   "same_row": null,
+   "signal": "MUTE BUS B",
+   "kind": "bus",
+   "port": "MUTE BUS B",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "33",
+   "ref": "P2-33",
+   "also": null,
+   "same_row": null,
+   "signal": "MUTE BUS C",
+   "kind": "bus",
+   "port": "MUTE BUS C",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "34",
+   "ref": "P2-34",
+   "also": null,
+   "same_row": null,
+   "signal": "MUTE BUS C",
+   "kind": "bus",
+   "port": "MUTE BUS C",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "35",
+   "ref": "P2-35",
+   "also": null,
+   "same_row": null,
+   "signal": "B STOP",
+   "kind": "control_out",
+   "port": "B STOP",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "36",
+   "ref": "P2-36",
+   "also": null,
+   "same_row": null,
+   "signal": "A STOP",
+   "kind": "control_out",
+   "port": "A STOP",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "37",
+   "ref": "P2-37",
+   "also": null,
+   "same_row": null,
+   "signal": "B START",
+   "kind": "control_out",
+   "port": "B START",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "38",
+   "ref": "P2-38",
+   "also": null,
+   "same_row": null,
+   "signal": "A START",
+   "kind": "control_out",
+   "port": "A START",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "39",
+   "ref": "P2-39",
+   "also": null,
+   "same_row": null,
+   "signal": "B ON TALLY",
+   "kind": "control_out",
+   "port": "B ON TALLY",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "40",
+   "ref": "P2-40",
+   "also": null,
+   "same_row": null,
+   "signal": "A ON TALLY",
+   "kind": "control_out",
+   "port": "A ON TALLY",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
    "pin": "41",
-   "signal": "CUE CHANNEL TOGGLES ON AND OFF",
-   "kind": "audio",
-   "pair": null,
+   "ref": "P2-41",
+   "also": null,
+   "same_row": null,
+   "signal": "CUE CTL",
+   "kind": "control_in",
+   "port": "CUE CTL",
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/UNSORTED/M901D/MANUALS/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P2",
+   "pin": "42",
+   "ref": "P2-42",
+   "also": null,
+   "same_row": null,
+   "signal": "PGM SELECT RESET",
+   "kind": "control_in",
+   "port": "PGM SELECT RESET",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "43",
+   "ref": "P2-43",
+   "also": null,
+   "same_row": null,
+   "signal": "ON CTL",
+   "kind": "control_in",
+   "port": "ON CTL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "44",
+   "ref": "P2-44",
+   "also": null,
+   "same_row": null,
+   "signal": "OFF CTL",
+   "kind": "control_in",
+   "port": "OFF CTL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
    "pin": "45",
-   "signal": "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH",
-   "kind": "control",
-   "pair": null,
+   "ref": "P2-45",
+   "also": null,
+   "same_row": null,
+   "signal": "OFF TALLY",
+   "kind": "control_out",
+   "port": "OFF TALLY",
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/UNSORTED/M901D/MANUALS/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P2",
    "pin": "46",
-   "signal": "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH",
-   "kind": "control",
-   "pair": null,
+   "ref": "P2-46",
+   "also": null,
+   "same_row": null,
+   "signal": "OFF TALLY",
+   "kind": "control_out",
+   "port": "OFF TALLY",
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/UNSORTED/M901D/MANUALS/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "47",
+   "ref": "P2-47",
+   "also": null,
+   "same_row": null,
+   "signal": "CTL COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "48",
+   "ref": "P2-48",
+   "also": null,
+   "same_row": null,
+   "signal": "CTL COM",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "49",
+   "ref": "P2-49",
+   "also": null,
+   "same_row": null,
+   "signal": "-24 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "50",
+   "ref": "P2-50",
+   "also": null,
+   "same_row": null,
+   "signal": "-24 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "51",
+   "ref": "P2-51",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "52",
+   "ref": "P2-52",
+   "also": null,
+   "same_row": null,
+   "signal": "24V COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "53",
+   "ref": "P2-53",
+   "also": null,
+   "same_row": null,
+   "signal": "+24 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "54",
+   "ref": "P2-54",
+   "also": null,
+   "same_row": null,
+   "signal": "+24 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "55",
+   "ref": "P2-55",
+   "also": null,
+   "same_row": null,
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "56",
+   "ref": "P2-56",
+   "also": null,
+   "same_row": null,
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "PGM 1 MUSIC OUT LEFT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-2"
+   }
+  },
+  {
+   "name": "PGM 1 VOICE OUT LEFT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-4"
+   }
+  },
+  {
+   "name": "PGM 1 MUSIC OUT RIGHT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-6"
+   }
+  },
+  {
+   "name": "PGM 1 VOICE OUT RIGHT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-8"
+   }
+  },
+  {
+   "name": "PGM 2 OUT LEFT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-10"
+   }
+  },
+  {
+   "name": "PGM 2 OUT RIGHT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-12"
+   }
+  },
+  {
+   "name": "PGM 3 OUT LEFT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-14"
+   }
+  },
+  {
+   "name": "PGM 3 OUT RIGHT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-16"
+   }
+  },
+  {
+   "name": "PGM 4 OUT LEFT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-18"
+   }
+  },
+  {
+   "name": "PGM 4 OUT RIGHT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-20"
+   }
+  },
+  {
+   "name": "MIX-MINUS OUT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-22"
+   }
+  },
+  {
+   "name": "AUX 1 OUT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-30"
+   }
+  },
+  {
+   "name": "AUX 2 OUT LEFT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-32"
+   }
+  },
+  {
+   "name": "AUX 2 OUT RIGHT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-34"
+   }
+  },
+  {
+   "name": "CUE OUT LEFT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-36"
+   }
+  },
+  {
+   "name": "CUE OUT RIGHT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-38"
+   }
+  },
+  {
+   "name": "A INPUT L",
+   "dir": "in",
+   "pins": {
+    "+": "P2-1",
+    "-": "P2-2"
+   }
+  },
+  {
+   "name": "A INPUT R",
+   "dir": "in",
+   "pins": {
+    "+": "P2-3",
+    "-": "P2-4"
+   }
+  },
+  {
+   "name": "B INPUT L",
+   "dir": "in",
+   "pins": {
+    "+": "P2-5",
+    "-": "P2-6"
+   }
+  },
+  {
+   "name": "B INPUT R",
+   "dir": "in",
+   "pins": {
+    "+": "P2-7",
+    "-": "P2-8"
+   }
+  },
+  {
+   "name": "INSERT R SEND",
+   "dir": "insert_send",
+   "pins": {
+    "+": "P2-11"
+   }
+  },
+  {
+   "name": "INSERT L SEND",
+   "dir": "insert_send",
+   "pins": {
+    "+": "P2-12"
+   }
+  },
+  {
+   "name": "INSERT R RETURN",
+   "dir": "insert_return",
+   "pins": {
+    "+": "P2-13"
+   }
+  },
+  {
+   "name": "INSERT L RETURN",
+   "dir": "insert_return",
+   "pins": {
+    "+": "P2-14"
+   }
+  },
+  {
+   "name": "DIRECT OUT R",
+   "dir": "out",
+   "pins": {
+    "+": "P2-15"
+   }
+  },
+  {
+   "name": "DIRECT OUT L",
+   "dir": "out",
+   "pins": {
+    "+": "P2-16"
+   }
+  },
+  {
+   "name": "P2-CTL OUT",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-17"
+   }
+  },
+  {
+   "name": "P1-CTL OUT",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-18"
+   }
+  },
+  {
+   "name": "EXT. VCA CTL VOLTAGE",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-19"
+   }
+  },
+  {
+   "name": "PGM 2 EXTERNAL SELECT",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-21"
+   }
+  },
+  {
+   "name": "PGM 1 EXTERNAL SELECT",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-22"
+   }
+  },
+  {
+   "name": "CUE CTL BUS",
+   "dir": "bus",
+   "pins": {
+    "a": "P2-23",
+    "b": "P2-24"
+   }
+  },
+  {
+   "name": "EXTERNAL B SELECT",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-25"
+   }
+  },
+  {
+   "name": "EXTERNAL A SELECT",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-26"
+   }
+  },
+  {
+   "name": "TIMER RESET BUS",
+   "dir": "bus",
+   "pins": {
+    "a": "P2-27",
+    "b": "P2-28"
+   }
+  },
+  {
+   "name": "MUTE BUS A",
+   "dir": "bus",
+   "pins": {
+    "a": "P2-29",
+    "b": "P2-30"
+   }
+  },
+  {
+   "name": "MUTE BUS B",
+   "dir": "bus",
+   "pins": {
+    "a": "P2-31",
+    "b": "P2-32"
+   }
+  },
+  {
+   "name": "MUTE BUS C",
+   "dir": "bus",
+   "pins": {
+    "a": "P2-33",
+    "b": "P2-34"
+   }
+  },
+  {
+   "name": "B STOP",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-35"
+   }
+  },
+  {
+   "name": "A STOP",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-36"
+   }
+  },
+  {
+   "name": "B START",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-37"
+   }
+  },
+  {
+   "name": "A START",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-38"
+   }
+  },
+  {
+   "name": "B ON TALLY",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-39"
+   }
+  },
+  {
+   "name": "A ON TALLY",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-40"
+   }
+  },
+  {
+   "name": "CUE CTL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-41"
+   }
+  },
+  {
+   "name": "PGM SELECT RESET",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-42"
+   }
+  },
+  {
+   "name": "ON CTL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-43"
+   }
+  },
+  {
+   "name": "OFF CTL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P2-44"
+   }
+  },
+  {
+   "name": "OFF TALLY",
+   "dir": "control_out",
+   "pins": {
+    "a": "P2-45",
+    "b": "P2-46"
+   }
+  }
+ ],
+ "inserts": [
+  {
+   "name": "INSERT L",
+   "send": "INSERT L SEND",
+   "return": "INSERT L RETURN",
+   "normalled": null,
+   "note": "P2-12 INSERT L OUT, P2-14 INSERT L IN; single contact each"
+  },
+  {
+   "name": "INSERT R",
+   "send": "INSERT R SEND",
+   "return": "INSERT R RETURN",
+   "normalled": null,
+   "note": "P2-11 INSERT R OUT, P2-13 INSERT R IN; single contact each"
   }
  ],
  "straps": [],
- "power": [],
- "sources": [
-  "Modules/UNSORTED/M901D/MANUALS/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp"
+ "conflicts": [],
+ "to_check": [
+  {
+   "what": "polarity assumed",
+   "pin": null,
+   "detail": "21 contacts given + / − that the drawing does not mark (e.g. P1-2 PGM 1 MUSIC OUT LEFT) (M901CY: 1994 - M901CY - CONNECTOR LAYOUT.jpg)"
+  }
  ]
 }
