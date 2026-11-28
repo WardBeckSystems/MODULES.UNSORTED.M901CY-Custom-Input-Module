@@ -1,7 +1,7 @@
 {
  "format": "wbs-model/1",
  "module": "M901CY",
- "repo": "MODULES.UNSORTED.M901CY-Custom-Input-Module",
+ "repo": "MODULES.RENAISSANCE.M901CY-Custom-Input-Module",
  "title": "Custom Input Module",
  "category": "UNSORTED",
  "units": "mm; x right, y up from the front panel's lower-left corner, z out of the face",

@@ -41,7 +41,7 @@ I K 1 ; Ig 1
 
 ```json
 {
- "file": "Modules/UNSORTED/M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.jpg",
+ "file": "Modules/RENAISSANCE/M901CY/PINOUTS/1994 - M901CY - CONNECTOR LAYOUT.jpg",
  "sha256": "d6fa34509a85ee880276eef5fb787ae4dbd0a6e73d757eedc4c75d7e130a5410",
  "kind": "module",
  "models": [
