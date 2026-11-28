@@ -21,6 +21,14 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1fxNifDaEAo6yz_d8UIFdgU6chodkYLIH/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1fxNifDaEAo6yz_d8UIFdgU6chodkYLIH" width="240" alt="1994 - M901CY - DOC - 940444-03-006 - LOVG FULL RAD SLOT SEE NOTE DOR ENTATIONS.jpg"></a><br><sub>1994|27 · DOC - 940444-03-006 - LOVG FULL RAD SLOT SEE NOTE DOR ENTATIONS · <a href="MECHANICAL/1994%20-%20M901CY%20-%20DOC%20-%20940444-03-006%20-%20LOVG%20FULL%20RAD%20SLOT%20SEE%20NOTE%20DOR%20ENTATIONS%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1a-jMm01y8d49S80PxNkauj9pp0yz5NYI/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1a-jMm01y8d49S80PxNkauj9pp0yz5NYI" width="240" alt="1994 - M901CY - DOC - 940444-04-001 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE.jpg"></a><br><sub>1994|27 · DOC - 940444-04-001 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE · <a href="MECHANICAL/1994%20-%20M901CY%20-%20DOC%20-%20940444-04-001%20-%20OTHERS%20ELECTRICALLY%20AND%20MECHANICALLY%20INTEGRATED%20INTO%20CONSOLE%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M901CY.stl`](MECHANICAL/M901CY.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M901CY)
+
+- **Size:** 41 × 404.7 mm panel, 165 mm deep, 3.2 mm plate (assumed 41 mm wide (1.6"), the drawn panel's proportions)
+- **From the drawing:** 16 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M901CY - front panel.svg`)
+- Made by `tools/module_models.py` (→ `MECHANICAL/M901CY.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Pinouts
 
 _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and rear views, strapping), and the pinout / connections drawings made from them. The module root `RTO.json` lists every contact._
