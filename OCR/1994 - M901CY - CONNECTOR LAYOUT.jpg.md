@@ -1,5 +1,5 @@
 # 1994 - M901CY - CONNECTOR LAYOUT.jpg
-Wiki page: [M901CY](../../../../PAGES/M901CY.md)
+Wiki page: [M901CY](../)
 
 
 - **Year:** 1994 (module estimate (family))

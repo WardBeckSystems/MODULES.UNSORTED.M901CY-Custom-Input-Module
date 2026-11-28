@@ -1,6 +1,6 @@
 # M901CY Custom Input Module · Renaissance
 
-Ward-Beck Systems M901CY, 1994|27. Wiki page: [M901CY on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M901CY.html)
+Ward-Beck Systems M901CY, 1994|27. Wiki page: [M901CY on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.RENAISSANCE.M901CY-Custom-Input-Module/)
 
 | Folder | What is in it | Files |
 |---|---|---|
